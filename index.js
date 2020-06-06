@@ -36,7 +36,6 @@ server.post("/api/users", (req, res) => {
     });
   }
 });
-
 server.get("/api/users", (req, res) => {
   const users = data.getUsers();
 
